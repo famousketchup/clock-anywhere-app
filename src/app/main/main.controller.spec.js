@@ -1,7 +1,7 @@
 describe('controllers', () => {
   let vm;
 
-  beforeEach(angular.mock.module('new'));
+  beforeEach(angular.mock.module('clock'));
 
   beforeEach(inject(($controller, webDevTec, toastr) => {
     spyOn(webDevTec, 'getTec').and.returnValue([{}, {}, {}, {}, {}]);

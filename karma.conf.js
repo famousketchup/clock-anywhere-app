@@ -48,7 +48,7 @@ module.exports = function(config) {
 
     ngHtml2JsPreprocessor: {
       stripPrefix: '(' + conf.paths.src + '/|' + conf.paths.tmp + '/serve/)',
-      moduleName: 'new'
+      moduleName: 'clock'
     },
 
     logLevel: 'WARN',

@@ -8,7 +8,7 @@ describe('directive navbar', function() {
   let element;
   let timeInMs;
 
-  beforeEach(angular.mock.module('new'));
+  beforeEach(angular.mock.module('clock'));
 
   beforeEach(inject(($compile, $rootScope) => {
     const currentDate = new Date();

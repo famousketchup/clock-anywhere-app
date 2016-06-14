@@ -12,12 +12,15 @@ var util = require('util');
 var proxyMiddleware = require('http-proxy-middleware');
 
 function browserSyncInit(baseDir, browser) {
-  browser = browser === undefined ? 'default' : browser;
+  browser = [];
+    //browser === undefined ? 'default' : browser;
 
-  var routes = null;
+  var routes = {
+  }
   if(baseDir === conf.paths.src || (util.isArray(baseDir) && baseDir.indexOf(conf.paths.src) !== -1)) {
     routes = {
-      '/bower_components': 'bower_components'
+      '/bower_components': 'bower_components',
+      '/timezone-csv': 'src/app/components/timezone/csv'
     };
   }
 
