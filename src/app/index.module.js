@@ -7,7 +7,7 @@ import { MainController } from './main/main.controller'
 import { TimezoneService } from './components/timezone/timezone.service'
 import { MalarkeyDirective } from '../app/components/malarkey/malarkey.directive'
 
-angular.module('clock', ['ngSanitize', 'ngResource', 'ngRoute', 'mm.foundation', 'ds.clock'])
+angular.module('clock', ['ngSanitize', 'ngResource', 'ngRoute', 'mm.foundation', 'ds.clock', 'ngAutocomplete'])
   .constant('malarkey', malarkey)
   .constant('moment', moment)
   .config(config)

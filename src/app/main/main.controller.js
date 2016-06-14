@@ -1,39 +1,41 @@
 export class MainController {
 
-  constructor ($scope, timezone) {
+  constructor ($scope, $interval, timezone, $log) {
     'ngInject'
 
-    this.gmt = '2'
+    $scope.gmt = 2
+    $scope.autocompleteOptions = {
+      watchEnter: true
+    }
+
+    this.$scope = $scope
+
+    this.$interval = $interval
     this.timezone = timezone
-    this.updateClock($scope)
+    this.$log = $log
   }
 
-  updateClock($scope, timezone) {
-    timezone = this.timezone.get($scope.where)
-    /*if (timezone)
-      $scope.currentGmt = timezone
-    else
-      alert('No zones found meeting your search query')*/
+  updateClock() {
+    const details = this.$scope.locationDetails
+    let scope = this.$scope
+
+    if(!details) {
+      alert('No location was selected')
+      return
+    }
+
+    const lat = details.geometry.location.lat()
+    const lng = details.geometry.location.lng()
+
+    scope.locationAddress = details.formatted_address
+    scope.gmt = '2' // TODO
+
+    if(scope.tick)
+      scope.tick.cancel()
+
+    scope.tick = this.$interval(function(){
+      scope.date = Date.now()
+    }, 1000)
   }
 
-  /*activate($timeout, webDevTec) {
-    this.getWebDevTec(webDevTec)
-    $timeout(() => {
-      this.classAnimation = 'rubberBand'
-    }, 4000)
-  }
-
-  getWebDevTec(webDevTec) {
-    this.awesomeThings = webDevTec.getTec()
-
-    angular.forEach(this.awesomeThings, (awesomeThing) => {
-      awesomeThing.rank = Math.random()
-    })
-  }
-
-  showToastr() {
-    this.toastr.info('Fork <a href="https://github.com/Swiip/generator-gulp-angular" target="_blank"><b>generator-gulp-angular</b></a>')
-    this.classAnimation = ''
-  }
-*/
 }
