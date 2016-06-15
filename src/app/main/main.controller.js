@@ -23,15 +23,18 @@ export class MainController {
       return
     }
 
-    if(!this.fetchedCapital && !this.addCapitalIfNecessary(scope, details))
-      return
+    //if(!this.fetchedCapital && !this.addCapitalIfNecessary(scope, details))
+      //return
 
     const lat = details.geometry.location.lat()
     const lng = details.geometry.location.lng()
 
     scope.locationAddress = details.formatted_address
     scope.flagUrl = this.location.getFlagUrlByCountryCode(
-      details.address_components.slice(-1)[0].short_name)
+      details.address_components.filter((component)=> {
+        return component.types[0] === 'country'
+      })[0].short_name
+    )
 
     this.location.fetchTimezoneByLatLng(lat,lng).then((gmt)=> {
       scope.gmt = gmt
@@ -40,7 +43,7 @@ export class MainController {
       this.resetDigitalClock(scope)
     })
   }
-
+/*
   addCapitalIfNecessary(scope, details) {
     if(this.fetchingCapital) return false
     let addressInfo = details.address_components[0]
@@ -52,15 +55,17 @@ export class MainController {
       this.fetchingCapital = true
       this.location.fetchCapitalByCountryCode(countryCode).then((capital)=> {
         scope.location = capital+', '+country
+        scope.$apply()
         this.fetchingCapital = false
         this.fetchedCapital = true
         this.updateClock()
+        this.fetchedCapital = false
       })
     }
 
     return true
   }
-
+*/
   resetDigitalClock(scope) {
     let now = new Date()
     let userOffset = now.getTimezoneOffset()*60*1000
