@@ -1,14 +1,13 @@
 {
-  "name": "angular-clock-demo",
-  "version": "0.0.1",
+  "name": "clock-anywhere-app",
+  "version": "0.1.1",
   "dependencies": {
-    "babyparse": "^0.4.6",
-    "systemjs-plugin-text": "0.0.8"
   },
   "scripts": {
     "test": "gulp test"
   },
   "devDependencies": {
+    "babyparse": "^0.4.6",
     "estraverse": "~4.1.0",
     "gulp": "~3.9.0",
     "gulp-autoprefixer": "~3.0.2",
@@ -56,6 +55,7 @@
     "http-proxy-middleware": "~0.9.0",
     "chalk": "~1.1.1",
     "uglify-save-license": "~0.4.1",
+    "systemjs-plugin-text": "0.0.8",
     "wrench": "~1.5.8"
   },
   "engines": {
