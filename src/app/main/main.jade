@@ -1,14 +1,14 @@
 .container.large-12.columns
   .clock.row
-    ds-widget-clock(show-analog gmt-offset='currentGmt')
+    ds-widget-clock(show-analog gmt-offset='clockGmt')
 
-  form.controls.row.collapse(ng-submit='main.updateClock()')
+  form.controls.row.collapse
     .medium-10.columns
       input(type='text' required ng-autocomplete ng-model='location' details='locationDetails' options='autocompleteOptions' placeholder='Enter a city or country')
     .medium-2.columns.text-center
-      button.button(type='submit' value='submit' id='submit') Update
+      button.button(type='submit' ng-click='main.updateClock()') Update
 
-  .details(ng-show='locationAddress')
+  .details(ng-show='locationAddress && gmt')
     .time {{date | date:'H:mm:ss'}}
-    .date {{date | date:'fullDate'}} (GMT {{gmt}})
+    .date {{date | date:'fullDate'}} (GMT {{gmt|gmt}})
     .location Time in {{locationAddress}}

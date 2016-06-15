@@ -1,9 +1,8 @@
 export class MainController {
 
-  constructor ($scope, $interval, timezone, $log) {
+  constructor ($scope, $interval, location, $log) {
     'ngInject'
 
-    $scope.gmt = 2
     $scope.autocompleteOptions = {
       watchEnter: true
     }
@@ -11,7 +10,7 @@ export class MainController {
     this.$scope = $scope
 
     this.$interval = $interval
-    this.timezone = timezone
+    this.location = location
     this.$log = $log
   }
 
@@ -28,14 +27,30 @@ export class MainController {
     const lng = details.geometry.location.lng()
 
     scope.locationAddress = details.formatted_address
-    scope.gmt = '2' // TODO
 
-    if(scope.tick)
-      scope.tick.cancel()
+    this.location.fetchTimezoneByLatLng(lat,lng).then((gmt)=> {
+      scope.gmt = gmt
+      scope.clockGmt = // ex. 5.75 => 5.45
+        Math.floor(parseFloat(gmt)) + (gmt % 1 * 3/5)
+      this.resetDigitalClock(scope)
+    })
+  }
 
-    scope.tick = this.$interval(function(){
-      scope.date = Date.now()
-    }, 1000)
+  resetDigitalClock(scope) {
+    let now = new Date()
+    let userOffset = now.getTimezoneOffset()*60*1000
+    let offset = scope.gmt*60*60*1000
+
+    function tick() {
+      let now = new Date()
+      scope.date = new Date(now.getTime() + offset + userOffset)
+    }
+
+    if(scope.digitalClockInterval)
+      this.$interval.cancel(scope.digitalClockInterval)
+
+    tick()
+    scope.digitalClockInterval = this.$interval(tick, 1000)
   }
 
 }

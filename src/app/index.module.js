@@ -3,16 +3,17 @@
 import { config } from './index.config'
 import { routerConfig } from './index.route'
 import { runBlock } from './index.run'
-import { MainController } from './main/main.controller'
-import { TimezoneService } from './components/timezone/timezone.service'
-import { MalarkeyDirective } from '../app/components/malarkey/malarkey.directive'
 
-angular.module('clock', ['ngSanitize', 'ngResource', 'ngRoute', 'mm.foundation', 'ds.clock', 'ngAutocomplete'])
+import { MainController } from './main/main.controller'
+import { LocationService } from './components/location/location.service'
+import { GmtFilter } from './components/location/gmt.filter'
+
+angular.module('clock', ['ngSanitize', 'ngResource', 'ngRoute', 'mm.foundation', 'ds.clock', 'ngAutocomplete', 'xml'])
   .constant('malarkey', malarkey)
   .constant('moment', moment)
   .config(config)
   .config(routerConfig)
   .run(runBlock)
-  .service('timezone', TimezoneService)
+  .service('location', LocationService)
   .controller('MainController', MainController)
-  .directive('acmeMalarkey', MalarkeyDirective)
+  .filter('gmt', GmtFilter)
