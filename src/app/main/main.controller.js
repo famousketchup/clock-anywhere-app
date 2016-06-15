@@ -30,7 +30,9 @@ export class MainController {
     const lng = details.geometry.location.lng()
 
     scope.locationAddress = details.formatted_address
+
     scope.flagUrl = this.location.getFlagUrlByCountryCode(
+      // use 'country' address component
       details.address_components.filter((component)=> {
         return component.types[0] === 'country'
       })[0].short_name
@@ -40,6 +42,7 @@ export class MainController {
       scope.gmt = gmt
       scope.clockGmt = // ex. 5.75 => 5.45
         Math.floor(parseFloat(gmt)) + (gmt % 1 * 3/5)
+
       this.resetDigitalClock(scope)
     })
   }

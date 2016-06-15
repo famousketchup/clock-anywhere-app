@@ -18,7 +18,7 @@ export class LocationService {
         q.resolve(response)
       }
     )
-    return q.promise
+    return q.promise // use with .then()
   }
 
   getFlagUrlByCountryCode(countryCode) {
@@ -36,6 +36,6 @@ export class LocationService {
         q.resolve(response)
       }
     )
-    return q.promise
+    return q.promise // use with .then()
   }
 }
