@@ -27,6 +27,8 @@ export class MainController {
     const lng = details.geometry.location.lng()
 
     scope.locationAddress = details.formatted_address
+    scope.flagUrl = this.location.getFlagUrlByCountryCode(
+      details.address_components.slice(-1)[0].short_name)
 
     this.location.fetchTimezoneByLatLng(lat,lng).then((gmt)=> {
       scope.gmt = gmt

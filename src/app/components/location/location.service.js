@@ -19,4 +19,7 @@ export class LocationService {
     )
     return q.promise
   }
+  getFlagUrlByCountryCode(countryCode) {
+    return 'http://www.geonames.org/flags/x/'+countryCode.toLowerCase()+'.gif'
+  }
 }

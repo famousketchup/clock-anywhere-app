@@ -11,4 +11,6 @@
   .details(ng-show='locationAddress && gmt')
     .time {{date | date:'H:mm:ss'}}
     .date {{date | date:'fullDate'}} (GMT {{gmt|gmt}})
-    .location Time in {{locationAddress}}
+    .location
+      span Time in {{locationAddress}} 
+      img.flag(ng-src='{{flagUrl}}')
