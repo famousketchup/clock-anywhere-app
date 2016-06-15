@@ -9,8 +9,6 @@ import { LocationService } from './components/location/location.service'
 import { GmtFilter } from './components/location/gmt.filter'
 
 angular.module('clock', ['ngSanitize', 'ngResource', 'ngRoute', 'mm.foundation', 'ds.clock', 'ngAutocomplete', 'xml'])
-  .constant('malarkey', malarkey)
-  .constant('moment', moment)
   .config(config)
   .config(routerConfig)
   .run(runBlock)
