@@ -16,7 +16,7 @@ export class MainController {
 
   updateClock() {
     let scope = this.$scope
-    let details = scope.locationDetails
+    const details = scope.locationDetails
 
     if(!details) {
       alert('No location was selected')

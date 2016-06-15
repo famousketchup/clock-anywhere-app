@@ -11,10 +11,10 @@ export class LocationService {
     const q = this.$q.defer()
 
     this.$http.get(`http://api.geonames.org/timezone?lat=${lat}&lng=${lng}&username=${this.username}&style=full`)
-      .success(function(response){
+      .success((response)=> {
         q.resolve(response.geonames.timezone.dstOffset)
       })
-      .error(function(response){
+      .error((response)=> {
         q.resolve(response)
       }
     )
