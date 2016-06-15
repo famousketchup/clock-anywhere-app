@@ -15,13 +15,16 @@ export class MainController {
   }
 
   updateClock() {
-    const details = this.$scope.locationDetails
     let scope = this.$scope
+    let details = scope.locationDetails
 
     if(!details) {
       alert('No location was selected')
       return
     }
+
+    if(!this.fetchedCapital && !this.addCapitalIfNecessary(scope, details))
+      return
 
     const lat = details.geometry.location.lat()
     const lng = details.geometry.location.lng()
@@ -36,6 +39,26 @@ export class MainController {
         Math.floor(parseFloat(gmt)) + (gmt % 1 * 3/5)
       this.resetDigitalClock(scope)
     })
+  }
+
+  addCapitalIfNecessary(scope, details) {
+    if(this.fetchingCapital) return false
+    let addressInfo = details.address_components[0]
+
+    if(addressInfo.types[0]=='country') {
+      const country = addressInfo.long_name
+      const countryCode = addressInfo.short_name
+
+      this.fetchingCapital = true
+      this.location.fetchCapitalByCountryCode(countryCode).then((capital)=> {
+        scope.location = capital+', '+country
+        this.fetchingCapital = false
+        this.fetchedCapital = true
+        this.updateClock()
+      })
+    }
+
+    return true
   }
 
   resetDigitalClock(scope) {
@@ -54,5 +77,4 @@ export class MainController {
     tick()
     scope.digitalClockInterval = this.$interval(tick, 1000)
   }
-
 }
