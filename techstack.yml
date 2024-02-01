@@ -1,0 +1,961 @@
+repo_name: dmitriy-korotayev/clock-anywhere-app
+report_id: 9bcc91106bbfa7f17b2ef29edbdf5b86
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-01T09:00:41+00:00'
+requested_by: dmitriy-korotayev
+provider: github
+branch: master
+detected_tools_count: 70
+tools:
+- name: ES6
+  description: The next version of JavaScript
+  website_url: http://www.ecma-international.org/ecma-262/6.0/
+  version: 6.6.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4109/16407404782_8b9c57eab3.jpg
+  detection_source_url: https://github.com/dmitriy-korotayev/clock-anywhere-app/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Dmitriy Korotayev
+  last_updated_on: 2016-06-11 17:37:20.000000000 Z
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/dmitriy-korotayev/clock-anywhere-app
+  detection_source: Repo Metadata
+- name: 'Animate.css '
+  description: A library of CSS animations
+  website_url: https://animate.style/
+  version: 3.4.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Front-End Frameworks
+  image_url: https://img.stackshare.io/service/9195/default_5aa00f79c6648507ba5f6c66c130a832332e5adc.png
+  detection_source_url: https://github.com/dmitriy-korotayev/clock-anywhere-app/blob/master/bower.json
+  detection_source: bower.json
+  last_updated_by: Dmitriy Korotayev
+  last_updated_on: 2016-06-11 17:37:20.000000000 Z
+- name: jQuery
+  description: The Write Less, Do More, JavaScript Library.
+  website_url: http://jquery.com/
+  version: 2.1.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1021/lxEKmMnB_400x400.jpg
+  detection_source_url: https://github.com/dmitriy-korotayev/clock-anywhere-app/blob/master/bower.json
+  detection_source: bower.json
+  last_updated_by: Dmitriy Korotayev
+  last_updated_on: 2016-06-11 17:37:20.000000000 Z
+- name: Babel
+  description: Use next generation JavaScript, today.
+  website_url: http://babeljs.io/
+  version: 6.7.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JavaScript Compilers
+  image_url: https://img.stackshare.io/service/2739/-1wfGjNw.png
+  detection_source_url: https://github.com/dmitriy-korotayev/clock-anywhere-app/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Dmitriy Korotayev
+  last_updated_on: 2016-06-11 17:37:20.000000000 Z
+- name: ESLint
+  description: The fully pluggable JavaScript code quality tool
+  website_url: http://eslint.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source_url: https://github.com/dmitriy-korotayev/clock-anywhere-app/blob/master/.eslintrc
+  detection_source: ".eslintrc"
+  last_updated_by: Dmitriy Korotayev
+  last_updated_on: 2016-06-11 17:37:20.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/dmitriy-korotayev/clock-anywhere-app
+  detection_source: Repo Metadata
+- name: Jasmine
+  description: DOM-less simple JavaScript testing framework
+  website_url: http://jasmine.github.io/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/831/7c0b595409af531b9cdeb07f8c513e8b.png
+  detection_source_url: https://github.com/dmitriy-korotayev/clock-anywhere-app/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Dmitriy Korotayev
+  last_updated_on: 2016-06-11 17:37:20.000000000 Z
+- name: Karma
+  description: Spectacular Test Runner for JavaScript
+  website_url: http://karma-runner.github.io/
+  version: 0.13.10
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Browser Testing
+  image_url: https://img.stackshare.io/service/1420/TidYGd6a.png
+  detection_source_url: https://github.com/dmitriy-korotayev/clock-anywhere-app/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Dmitriy Korotayev
+  last_updated_on: 2016-06-11 17:37:20.000000000 Z
+- name: PhantomJS
+  description: Scriptable Headless WebKit
+  website_url: https://phantomjs.org/
+  version: 1.9.18
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Headless Browsers
+  image_url: https://img.stackshare.io/service/1832/phantomjs.png
+  detection_source_url: https://github.com/dmitriy-korotayev/clock-anywhere-app/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Dmitriy Korotayev
+  last_updated_on: 2016-06-11 17:37:20.000000000 Z
+- name: Webpack
+  description: A bundler for javascript and friends
+  website_url: http://webpack.js.org
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/service/1682/IMG_4636.PNG
+  detection_source_url: https://github.com/dmitriy-korotayev/clock-anywhere-app/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Dmitriy Korotayev
+  last_updated_on: 2016-06-11 17:37:20.000000000 Z
+- name: gulp
+  description: The streaming build system
+  website_url: http://gulpjs.com/
+  version: 3.9.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/service/844/iruTC031.png
+  detection_source_url: https://github.com/dmitriy-korotayev/clock-anywhere-app/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Dmitriy Korotayev
+  last_updated_on: 2016-06-11 17:37:20.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/dmitriy-korotayev/clock-anywhere-app/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Dmitriy Korotayev
+  last_updated_on: 2016-06-11 17:37:20.000000000 Z
+- name: Lodash
+  description: A JavaScript utility library
+  website_url: https://lodash.com
+  version: 3.10.1
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/2438/lodash.png
+  detection_source_url: https://github.com/dmitriy-korotayev/clock-anywhere-app/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Dmitriy Korotayev
+  last_updated_on: 2016-06-11 17:37:20.000000000 Z
+- name: Moment.js
+  description: A JavaScript date library for parsing, validating, manipulating, and
+    formatting dates
+  website_url: http://momentjs.com/
+  version: 2.10.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/3643/Xrtdc94q_400x400.png
+  detection_source_url: https://github.com/dmitriy-korotayev/clock-anywhere-app/blob/master/bower.json
+  detection_source: bower.json
+  last_updated_by: Dmitriy Korotayev
+  last_updated_on: 2016-06-11 17:37:20.000000000 Z
+- name: chalk
+  description: terminal colors
+  website_url: https://github.com/chalk/chalk
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/8072/13122722.png
+  detection_source_url: https://github.com/dmitriy-korotayev/clock-anywhere-app/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Dmitriy Korotayev
+  last_updated_on: 2016-06-11 17:37:20.000000000 Z
+- name: babel-core
+  description: Babel compiler core
+  package_url: https://www.npmjs.com/babel-core
+  version: 6.7.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15798/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/dmitriy-korotayev/clock-anywhere-app/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Dmitriy Korotayev
+  last_updated_on: 2016-06-11 17:37:20.000000000 Z
+- name: babel-loader
+  description: Babel module loader for webpack
+  package_url: https://www.npmjs.com/babel-loader
+  version: 6.2.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15800/default_4acafe585186b4157fa23322ae7ca89e24b5cdef.png
+  detection_source_url: https://github.com/dmitriy-korotayev/clock-anywhere-app/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Dmitriy Korotayev
+  last_updated_on: 2016-06-11 17:37:20.000000000 Z
+- name: browser-sync
+  description: Live CSS Reload &amp; Browser Syncing
+  package_url: https://www.npmjs.com/browser-sync
+  version: 2.9.11
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16034/default_a9b6ac3c2fe43713f9a8e43d4668d0352ad0d247.png
+  detection_source_url: https://github.com/dmitriy-korotayev/clock-anywhere-app/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Dmitriy Korotayev
+  last_updated_on: 2016-06-11 17:37:20.000000000 Z
+- name: chalk
+  description: Terminal string styling done right
+  package_url: https://www.npmjs.com/chalk
+  version: 1.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15813/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/dmitriy-korotayev/clock-anywhere-app/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Dmitriy Korotayev
+  last_updated_on: 2016-06-11 17:37:20.000000000 Z
+- name: del
+  description: Delete files and directories
+  package_url: https://www.npmjs.com/del
+  version: 2.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15907/default_a582b9fecca65f37fe68520c8f84d3bcae35db24.png
+  detection_source_url: https://github.com/dmitriy-korotayev/clock-anywhere-app/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Dmitriy Korotayev
+  last_updated_on: 2016-06-11 17:37:20.000000000 Z
+- name: eslint-loader
+  description: ESlint loader for webpack
+  package_url: https://www.npmjs.com/eslint-loader
+  version: 1.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15889/default_724d5bc657ec09174564f19f2a5d26098549124a.png
+  detection_source_url: https://github.com/dmitriy-korotayev/clock-anywhere-app/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Dmitriy Korotayev
+  last_updated_on: 2016-06-11 17:37:20.000000000 Z
+- name: eslint-plugin-angular
+  description: ESLint rules for AngularJS projects
+  package_url: https://www.npmjs.com/eslint-plugin-angular
+  version: 0.12.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18121/image.png
+  detection_source_url: https://github.com/dmitriy-korotayev/clock-anywhere-app/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Dmitriy Korotayev
+  last_updated_on: 2016-06-15 09:55:54.000000000 Z
+- name: estraverse
+  description: ECMAScript JS AST traversal functions
+  package_url: https://www.npmjs.com/estraverse
+  version: 4.1.0
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16785/default_cc1793e454d6d035c188f0198b037d58f372e7f2.png
+  detection_source_url: https://github.com/dmitriy-korotayev/clock-anywhere-app/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Dmitriy Korotayev
+  last_updated_on: 2016-06-15 09:55:54.000000000 Z
+- name: gulp-angular-templatecache
+  description: Concatenates and registers AngularJS templates in the $templateCache
+  package_url: https://www.npmjs.com/gulp-angular-templatecache
+  version: 1.8.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17255/default_9aa9c9d4e491c9d2d70df74bfa33cf525babb7f5.png
+  detection_source_url: https://github.com/dmitriy-korotayev/clock-anywhere-app/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Dmitriy Korotayev
+  last_updated_on: 2016-06-11 17:37:20.000000000 Z
+- name: gulp-autoprefixer
+  description: Prefix CSS
+  package_url: https://www.npmjs.com/gulp-autoprefixer
+  version: 3.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16090/default_8725384794b44fe56f31da1d21ae759cf07be7a5.png
+  detection_source_url: https://github.com/dmitriy-korotayev/clock-anywhere-app/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Dmitriy Korotayev
+  last_updated_on: 2016-06-11 17:37:20.000000000 Z
+- name: gulp-cssnano
+  description: Minify CSS with cssnano
+  package_url: https://www.npmjs.com/gulp-cssnano
+  version: 2.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16774/default_cc1793e454d6d035c188f0198b037d58f372e7f2.png
+  detection_source_url: https://github.com/dmitriy-korotayev/clock-anywhere-app/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Dmitriy Korotayev
+  last_updated_on: 2016-06-11 17:37:20.000000000 Z
+- name: gulp-eslint
+  description: A gulp plugin for processing files with ESLint
+  package_url: https://www.npmjs.com/gulp-eslint
+  version: 1.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16009/default_cbd6c289400672b291755183817e9dd6abe1a612.png
+  detection_source_url: https://github.com/dmitriy-korotayev/clock-anywhere-app/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Dmitriy Korotayev
+  last_updated_on: 2016-06-11 17:37:20.000000000 Z
+- name: gulp-filter
+  description: Filter files in a `vinyl` stream
+  package_url: https://www.npmjs.com/gulp-filter
+  version: 3.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16385/default_b5c8f3c8e46d368f74a982d06d7f13291fe651ea.png
+  detection_source_url: https://github.com/dmitriy-korotayev/clock-anywhere-app/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Dmitriy Korotayev
+  last_updated_on: 2016-06-11 17:37:20.000000000 Z
+- name: gulp-flatten
+  description: Remove or replace relative path for files
+  package_url: https://www.npmjs.com/gulp-flatten
+  version: 0.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17193/default_21a9522c66101ebad0e63609af74acb35fe29a0a.png
+  detection_source_url: https://github.com/dmitriy-korotayev/clock-anywhere-app/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Dmitriy Korotayev
+  last_updated_on: 2016-06-11 17:37:20.000000000 Z
+- name: gulp-htmlmin
+  description: Gulp plugin to minify HTML
+  package_url: https://www.npmjs.com/gulp-htmlmin
+  version: 1.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16821/default_9a5182350af29cb82b3344853e865051f508ac6c.png
+  detection_source_url: https://github.com/dmitriy-korotayev/clock-anywhere-app/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Dmitriy Korotayev
+  last_updated_on: 2016-06-11 17:37:20.000000000 Z
+- name: gulp-inject
+  description: A javascript, stylesheet and webcomponent injection plugin for Gulp,
+    i.e
+  package_url: https://www.npmjs.com/gulp-inject
+  version: 3.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17107/default_cd46073ead3b39efb82d67472bd530a8fbcbda52.png
+  detection_source_url: https://github.com/dmitriy-korotayev/clock-anywhere-app/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Dmitriy Korotayev
+  last_updated_on: 2016-06-11 17:37:20.000000000 Z
+- name: gulp-load-plugins
+  description: Automatically load any gulp plugins in your package.json
+  package_url: https://www.npmjs.com/gulp-load-plugins
+  version: 0.10.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16154/default_ac04a744873b460c4ef30a7450ed0c83223640ab.png
+  detection_source_url: https://github.com/dmitriy-korotayev/clock-anywhere-app/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Dmitriy Korotayev
+  last_updated_on: 2016-06-15 09:55:54.000000000 Z
+- name: gulp-protractor
+  description: A helper for protactor and gulp
+  package_url: https://www.npmjs.com/gulp-protractor
+  version: 2.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17802/default_78858facb60c08d15198eb69a6c7f48463f2c09f.png
+  detection_source_url: https://github.com/dmitriy-korotayev/clock-anywhere-app/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Dmitriy Korotayev
+  last_updated_on: 2016-06-11 17:37:20.000000000 Z
+- name: gulp-rename
+  description: Rename files
+  package_url: https://www.npmjs.com/gulp-rename
+  version: 1.2.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15895/default_e4668902f8489350db9b0fb228523a571ef05b26.png
+  detection_source_url: https://github.com/dmitriy-korotayev/clock-anywhere-app/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Dmitriy Korotayev
+  last_updated_on: 2016-06-15 09:55:54.000000000 Z
+- name: gulp-replace
+  description: A string replace plugin for gulp
+  package_url: https://www.npmjs.com/gulp-replace
+  version: 0.5.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16150/default_73326c44fbfa7369fd17573edb113e5d849468bc.png
+  detection_source_url: https://github.com/dmitriy-korotayev/clock-anywhere-app/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Dmitriy Korotayev
+  last_updated_on: 2016-06-11 17:37:20.000000000 Z
+- name: gulp-rev
+  description: 'Static asset revisioning by appending content hash to filenames: unicorn.css
+    =&gt; unicorn-d41d8cd98f.css'
+  package_url: https://www.npmjs.com/gulp-rev
+  version: 6.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17180/default_fbe883dfc6d978f82179fa11bdf634af1b6751fa.png
+  detection_source_url: https://github.com/dmitriy-korotayev/clock-anywhere-app/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Dmitriy Korotayev
+  last_updated_on: 2016-06-11 17:37:20.000000000 Z
+- name: gulp-rev-replace
+  description: Rewrite occurences of filenames which have been renamed by gulp-rev
+  package_url: https://www.npmjs.com/gulp-rev-replace
+  version: 0.4.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18237/default_b102609c7a7fb86f3c2ca3ec026f3011d275978b.png
+  detection_source_url: https://github.com/dmitriy-korotayev/clock-anywhere-app/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Dmitriy Korotayev
+  last_updated_on: 2016-06-11 17:37:20.000000000 Z
+- name: gulp-sass
+  description: Gulp plugin for sass
+  package_url: https://www.npmjs.com/gulp-sass
+  version: 2.0.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16002/default_f8be85789693a9901dbcfa43c135c60525ae49a1.png
+  detection_source_url: https://github.com/dmitriy-korotayev/clock-anywhere-app/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Dmitriy Korotayev
+  last_updated_on: 2016-06-11 17:37:20.000000000 Z
+- name: gulp-size
+  description: Display the size of your project
+  package_url: https://www.npmjs.com/gulp-size
+  version: 2.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16655/default_783b9b6c17b863f264c1418b0eb831316f741afd.png
+  detection_source_url: https://github.com/dmitriy-korotayev/clock-anywhere-app/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Dmitriy Korotayev
+  last_updated_on: 2016-06-11 17:37:20.000000000 Z
+- name: gulp-sourcemaps
+  description: Source map support for Gulp.js
+  package_url: https://www.npmjs.com/gulp-sourcemaps
+  version: 1.6.0
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15958/default_4040fefea2f98006727f63d042275b96a275ab2d.png
+  detection_source_url: https://github.com/dmitriy-korotayev/clock-anywhere-app/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Dmitriy Korotayev
+  last_updated_on: 2016-06-11 17:37:20.000000000 Z
+- name: gulp-uglify
+  description: Minify files with UglifyJS
+  package_url: https://www.npmjs.com/gulp-uglify
+  version: 1.4.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15910/default_e0a4fb1126d7400f419f0931cf1669947a5bc552.png
+  detection_source_url: https://github.com/dmitriy-korotayev/clock-anywhere-app/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Dmitriy Korotayev
+  last_updated_on: 2016-06-11 17:37:20.000000000 Z
+- name: gulp-useref
+  description: Parse build blocks in HTML files to replace references to non-optimized
+    scripts or stylesheets
+  package_url: https://www.npmjs.com/gulp-useref
+  version: 3.0.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17520/default_0b7f20f712cc7ba96f6445246813407719ce8f32.png
+  detection_source_url: https://github.com/dmitriy-korotayev/clock-anywhere-app/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Dmitriy Korotayev
+  last_updated_on: 2016-06-11 17:37:20.000000000 Z
+- name: gulp-util
+  description: Utility functions for gulp plugins
+  package_url: https://www.npmjs.com/gulp-util
+  version: 3.0.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15912/default_b45165a5d30e541ab11711a34a78209b3e8ed7fd.png
+  detection_source_url: https://github.com/dmitriy-korotayev/clock-anywhere-app/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Dmitriy Korotayev
+  last_updated_on: 2016-06-11 17:37:20.000000000 Z
+- name: http-proxy-middleware
+  description: The one-liner node.js proxy middleware for connect
+  package_url: https://www.npmjs.com/http-proxy-middleware
+  version: 0.9.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16167/default_77b54a203c743d16eddb6b6390cba17218454fa0.png
+  detection_source_url: https://github.com/dmitriy-korotayev/clock-anywhere-app/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Dmitriy Korotayev
+  last_updated_on: 2016-06-11 17:37:20.000000000 Z
+- name: jade
+  description: A clean
+  package_url: https://www.npmjs.com/jade
+  version: 1.11.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16163/default_73326c44fbfa7369fd17573edb113e5d849468bc.png
+  detection_source_url: https://github.com/dmitriy-korotayev/clock-anywhere-app/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Dmitriy Korotayev
+  last_updated_on: 2016-06-11 17:37:20.000000000 Z
+- name: karma-coverage
+  description: A Karma plugin. Generate code coverage
+  package_url: https://www.npmjs.com/karma-coverage
+  version: 0.5.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15951/default_b45165a5d30e541ab11711a34a78209b3e8ed7fd.png
+  detection_source_url: https://github.com/dmitriy-korotayev/clock-anywhere-app/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Dmitriy Korotayev
+  last_updated_on: 2016-06-11 17:37:20.000000000 Z
+- name: karma-jasmine
+  description: A Karma plugin - adapter for Jasmine testing framework
+  package_url: https://www.npmjs.com/karma-jasmine
+  version: 0.3.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15886/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
+  detection_source_url: https://github.com/dmitriy-korotayev/clock-anywhere-app/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Dmitriy Korotayev
+  last_updated_on: 2016-06-11 17:37:20.000000000 Z
+- name: karma-ng-html2js-preprocessor
+  description: A Karma plugin
+  package_url: https://www.npmjs.com/karma-ng-html2js-preprocessor
+  version: 0.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17699/default_52c11a434d2ce37281914a7f804e07cf95ab96f7.png
+  detection_source_url: https://github.com/dmitriy-korotayev/clock-anywhere-app/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Dmitriy Korotayev
+  last_updated_on: 2016-06-15 09:55:54.000000000 Z
+- name: karma-phantomjs-launcher
+  description: A Karma plugin. Launcher for PhantomJS
+  package_url: https://www.npmjs.com/karma-phantomjs-launcher
+  version: 0.2.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15947/default_54b691c123fc8979741e800e4dcd3936c0f3b246.png
+  detection_source_url: https://github.com/dmitriy-korotayev/clock-anywhere-app/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Dmitriy Korotayev
+  last_updated_on: 2016-06-15 09:55:54.000000000 Z
+- name: karma-phantomjs-shim
+  description: Provides shims for PhantomJS
+  package_url: https://www.npmjs.com/karma-phantomjs-shim
+  version: 1.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16837/default_884deeafc4d4b680b6d9cb7e3759ba2db025e8e7.png
+  detection_source_url: https://github.com/dmitriy-korotayev/clock-anywhere-app/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Dmitriy Korotayev
+  last_updated_on: 2016-06-15 09:55:54.000000000 Z
+- name: main-bower-files
+  description: Get main files from your installed bower packages
+  package_url: https://www.npmjs.com/main-bower-files
+  version: 2.9.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17637/default_e1c4f2497325ac0d57aca0c3473ca18d24eb8a13.png
+  detection_source_url: https://github.com/dmitriy-korotayev/clock-anywhere-app/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Dmitriy Korotayev
+  last_updated_on: 2016-06-11 17:37:20.000000000 Z
+- name: ng-annotate-loader
+  description: Webpack loader that runs ng-annotate on your bundles
+  package_url: https://www.npmjs.com/ng-annotate-loader
+  version: 0.0.10
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18083/image.png
+  detection_source_url: https://github.com/dmitriy-korotayev/clock-anywhere-app/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Dmitriy Korotayev
+  last_updated_on: 2016-06-11 17:37:20.000000000 Z
+- name: webpack-stream
+  description: Run webpack as a stream
+  package_url: https://www.npmjs.com/webpack-stream
+  version: 2.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16467/default_89ba91277e3434b03295bb11d22736632df1d04f.png
+  detection_source_url: https://github.com/dmitriy-korotayev/clock-anywhere-app/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Dmitriy Korotayev
+  last_updated_on: 2016-06-11 17:37:20.000000000 Z
+- name: wiredep
+  description: Wire Bower dependencies to your source code
+  package_url: https://www.npmjs.com/wiredep
+  version: 2.2.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17368/default_2613a99266d0023b6108b16e4d6613c439a64039.png
+  detection_source_url: https://github.com/dmitriy-korotayev/clock-anywhere-app/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Dmitriy Korotayev
+  last_updated_on: 2016-06-11 17:37:20.000000000 Z
+- name: wrench
+  description: Recursive filesystem
+  package_url: https://www.npmjs.com/wrench
+  version: 1.5.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16688/default_e3c0987b80983280e46e6e1723fcfcff50fa4824.png
+  detection_source_url: https://github.com/dmitriy-korotayev/clock-anywhere-app/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Dmitriy Korotayev
+  last_updated_on: 2016-06-11 17:37:20.000000000 Z
+- name: angular
+  description: Bower package for AngularJS
+  package_url: http://bower.io/angular
+  version: 1.5.3
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/bower/image.png
+  detection_source_url: https://github.com/dmitriy-korotayev/clock-anywhere-app/blob/master/bower.json
+  detection_source: bower.json
+  last_updated_by: Dmitriy Korotayev
+  last_updated_on: 2016-06-15 06:00:23.000000000 Z
+- name: angular-animate
+  description: Bower package for the AngularJS animation module
+  package_url: http://bower.io/angular-animate
+  version: 1.5.3
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/bower/image.png
+  detection_source_url: https://github.com/dmitriy-korotayev/clock-anywhere-app/blob/master/bower.json
+  detection_source: bower.json
+  last_updated_by: Dmitriy Korotayev
+  last_updated_on: 2016-06-15 06:00:23.000000000 Z
+- name: angular-aria
+  description: Angular-aria.js bower repo
+  package_url: http://bower.io/angular-aria
+  version: 1.5.3
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/bower/image.png
+  detection_source_url: https://github.com/dmitriy-korotayev/clock-anywhere-app/blob/master/bower.json
+  detection_source: bower.json
+  last_updated_by: Dmitriy Korotayev
+  last_updated_on: 2016-06-15 06:00:23.000000000 Z
+- name: angular-foundation
+  description: The bower distribution repository for angular-foundation
+  package_url: http://bower.io/angular-foundation
+  version: 0.6.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/bower/image.png
+  detection_source_url: https://github.com/dmitriy-korotayev/clock-anywhere-app/blob/master/bower.json
+  detection_source: bower.json
+  last_updated_by: Dmitriy Korotayev
+  last_updated_on: 2016-06-15 06:00:23.000000000 Z
+- name: angular-mocks
+  description: Angular-mocks.js bower repo
+  package_url: http://bower.io/angular-mocks
+  version: 1.5.3
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/bower/image.png
+  detection_source_url: https://github.com/dmitriy-korotayev/clock-anywhere-app/blob/master/bower.json
+  detection_source: bower.json
+  last_updated_by: Dmitriy Korotayev
+  last_updated_on: 2016-06-15 06:00:23.000000000 Z
+- name: angular-resource
+  description: Angular-resource bower repo
+  package_url: http://bower.io/angular-resource
+  version: 1.5.3
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/bower/image.png
+  detection_source_url: https://github.com/dmitriy-korotayev/clock-anywhere-app/blob/master/bower.json
+  detection_source: bower.json
+  last_updated_by: Dmitriy Korotayev
+  last_updated_on: 2016-06-15 06:00:23.000000000 Z
+- name: angular-route
+  description: Angular-route bower repo
+  package_url: http://bower.io/angular-route
+  version: 1.5.3
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/bower/image.png
+  detection_source_url: https://github.com/dmitriy-korotayev/clock-anywhere-app/blob/master/bower.json
+  detection_source: bower.json
+  last_updated_by: Dmitriy Korotayev
+  last_updated_on: 2016-06-15 06:00:23.000000000 Z
+- name: angular-sanitize
+  description: Angular-sanitize bower repo
+  package_url: http://bower.io/angular-sanitize
+  version: 1.5.3
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/bower/image.png
+  detection_source_url: https://github.com/dmitriy-korotayev/clock-anywhere-app/blob/master/bower.json
+  detection_source: bower.json
+  last_updated_by: Dmitriy Korotayev
+  last_updated_on: 2016-06-15 06:00:23.000000000 Z
+- name: angular-ui-clock
+  description: An angular.js directive for clock svg widgets - reactive
+  package_url: http://bower.io/angular-ui-clock
+  version: 0.5.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/bower/image.png
+  detection_source_url: https://github.com/dmitriy-korotayev/clock-anywhere-app/blob/master/bower.json
+  detection_source: bower.json
+  last_updated_by: Dmitriy Korotayev
+  last_updated_on: 2016-06-15 09:55:54.000000000 Z
+- name: angular-xml
+  description: XML module for AngularJS
+  package_url: http://bower.io/angular-xml
+  version: 2.2.1
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/bower/image.png
+  detection_source_url: https://github.com/dmitriy-korotayev/clock-anywhere-app/blob/master/bower.json
+  detection_source: bower.json
+  last_updated_by: Dmitriy Korotayev
+  last_updated_on: 2016-06-15 06:00:23.000000000 Z
+- name: animate.css
+  description: A cross-browser library of CSS animations
+  package_url: http://bower.io/animate.css
+  version: 3.4.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/bower/image.png
+  detection_source_url: https://github.com/dmitriy-korotayev/clock-anywhere-app/blob/master/bower.json
+  detection_source: bower.json
+  last_updated_by: Dmitriy Korotayev
+  last_updated_on: 2016-06-11 17:37:20.000000000 Z
+- name: foundation-sites
+  description: The most advanced responsive front-end framework in the world
+  package_url: http://bower.io/foundation-sites
+  version: 6.1.2
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/bower/image.png
+  detection_source_url: https://github.com/dmitriy-korotayev/clock-anywhere-app/blob/master/bower.json
+  detection_source: bower.json
+  last_updated_by: Dmitriy Korotayev
+  last_updated_on: 2016-06-11 17:37:20.000000000 Z
+- name: moment
+  description: Parse
+  package_url: http://bower.io/moment
+  version: 2.10.6
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/bower/image.png
+  detection_source_url: https://github.com/dmitriy-korotayev/clock-anywhere-app/blob/master/bower.json
+  detection_source: bower.json
+  last_updated_by: Dmitriy Korotayev
+  last_updated_on: 2016-06-11 17:37:20.000000000 Z
+- name: ngAutocomplete
+  description: Simple AngulasJS directive for adding google places autocomplete to
+    a textbox element
+  package_url: http://bower.io/ngAutocomplete
+  version: 1.0.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/bower/image.png
+  detection_source_url: https://github.com/dmitriy-korotayev/clock-anywhere-app/blob/master/bower.json
+  detection_source: bower.json
+  last_updated_by: Dmitriy Korotayev
+  last_updated_on: 2016-06-15 06:00:23.000000000 Z
